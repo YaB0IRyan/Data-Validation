@@ -1,0 +1,32 @@
+﻿<Window x:Class="Data_Validation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Data_Validation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lbl_name" Content="Name:" HorizontalAlignment="Left" Margin="308,87,0,0" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Margin="308,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderBrush="#FFBFBFBF"/>
+        <Label x:Name="lbl_age" Content="Age:" HorizontalAlignment="Left" Margin="472,83,0,0" VerticalAlignment="Top" BorderBrush="Black" RenderTransformOrigin="0.564,1.196"/>
+        <TextBox x:Name="txt_age" HorizontalAlignment="Left" Margin="472,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" BorderBrush="#FFBFBFBF"/>
+        <Label x:Name="lbl_address" Content="Address:" HorizontalAlignment="Left" Margin="563,87,0,0" VerticalAlignment="Top" BorderBrush="Black"/>
+        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Margin="563,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" BorderBrush="#FFBFBFBF"/>
+        <Button x:Name="btn_load" Content="Load" HorizontalAlignment="Left" Margin="65,87,0,0" VerticalAlignment="Top" Height="44" Width="87" Click="btn_load_Click"/>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="65,164,0,0" VerticalAlignment="Top" Height="44" Width="87" Click="btn_save_Click"/>
+        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="65,314,0,0" VerticalAlignment="Top" Height="44" Width="87" Click="btn_clear_Click"/>
+        <Label x:Name="lbl_number" Content="" HorizontalAlignment="Left" Margin="506,274,0,0" VerticalAlignment="Top" BorderBrush="Black" RenderTransformOrigin="0.564,1.196"/>
+        <Label x:Name="lbl_name2" Content="Name:" HorizontalAlignment="Left" Margin="308,269,0,0" VerticalAlignment="Top" BorderBrush="Black"/>
+        <Label x:Name="lbl_age2" Content="Age:" HorizontalAlignment="Left" Margin="472,269,0,0" VerticalAlignment="Top" BorderBrush="Black" RenderTransformOrigin="0.564,1.196"/>
+        <Label x:Name="lbl_address2" Content="Address:" HorizontalAlignment="Left" Margin="563,269,0,0" VerticalAlignment="Top" BorderBrush="Black"/>
+        <Label x:Name="lbl_output_name" Content="" HorizontalAlignment="Left" Margin="308,299,0,0" VerticalAlignment="Top" BorderBrush="#FFBFBFBF" BorderThickness="1,1,1,1" Width="120"/>
+        <Label x:Name="lbl_output_age" Content="" HorizontalAlignment="Left" Margin="472,299,0,0" VerticalAlignment="Top" BorderBrush="#FFBFBFBF" RenderTransformOrigin="0.564,1.196" BorderThickness="1,1,1,1" Width="60"/>
+        <Label x:Name="lbl_output_address" Content="" HorizontalAlignment="Left" Margin="563,299,0,0" VerticalAlignment="Top" BorderBrush="#FFBFBFBF" BorderThickness="1,1,1,1" Width="175"/>
+        <Label x:Name="lbl_counter" Content="" HorizontalAlignment="Left" Margin="504,342,0,0" VerticalAlignment="Top" BorderBrush="Black" RenderTransformOrigin="0.564,1.196" Width="56"/>
+        <TextBox x:Name="txt_output" HorizontalAlignment="Left" Margin="308,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" BorderBrush="#FFBFBFBF" Height="79" IsEnabled="False"/>
+        <Button x:Name="btn_bck" Content="Back" HorizontalAlignment="Left" Margin="308,338,0,0" VerticalAlignment="Top" Width="92" Click="btn_bck_Click"/>
+        <Button x:Name="btn_nxt" Content="Next" HorizontalAlignment="Left" Margin="646,338,0,0" VerticalAlignment="Top" Width="92" Click="btn_nxt_Click"/>
+
+    </Grid>
+</Window>
